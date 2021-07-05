@@ -9,9 +9,10 @@ body{
     width: 50%;
     padding: 3%;
 }
-img{
+.img{
     width: 80%;
 }
+
 h1{
     font-size: 50px;
 }
@@ -21,15 +22,30 @@ h2{
 span{
     color: red;
 }
+
+.image{
+    width: 6%;
+    height: 7%;
+    margin-left: 40px;
+}
 a{
     text-decoration: none;
+    padding: 10px 10px;
+}
+.profile{
     padding: 10px 15px;
+    text-decoration: none;
     background-image: linear-gradient(red, rgb(132, 241, 132));
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
     padding: 10px 25px;
     border-radius: 7px;
+}
+.profile:hover{
+    background-image: linear-gradient(rgb(241, 239, 239), rgb(9, 241, 9));
+    color: rgb(24, 22, 22);
+    font-weight: 700;
 }
 .second h3{
     color: red;
