@@ -32,11 +32,11 @@ span{
 }
 
 .image{
-    width: 6%;
-    height: 7%;
-    margin-left: 40px;
+    width: 7%;
+    height: 8%;
+    margin-left: 15px;
     position: relative;
-    top: 7px;
+    top: 12px;
 }
 a{
     text-decoration: none;
@@ -49,13 +49,11 @@ a{
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
-    padding: 10px 25px;
     border-radius: 7px;
 }
 .profile:hover{
     background-image: linear-gradient(rgb(241, 239, 239), rgb(9, 241, 9));
     color: rgb(24, 22, 22);
-    font-weight: 700;
 }
 .second h3{
     color: red;
